@@ -11,7 +11,7 @@ javac.exe -Xmodule:addmodule -d testing\addmodule -mp mods src\test\java\com\bob
 
 ####run
 
-c:\sdks\jdk-9-123\jdk-9\bin\java.exe -ea -Xpatch:addmodule=testing\addmodule -mp mods -addmods addmodule -m addmodule/com.bobpaulin.impl.AddServiceImplTest
+java.exe -ea -Xpatch:addmodule=testing\addmodule -mp mods -addmods addmodule -m addmodule/com.bobpaulin.impl.AddServiceImplTest
 
 ###test-junit
 
